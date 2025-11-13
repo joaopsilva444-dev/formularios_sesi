@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <h2>FORMULARIO SUPERAÇAIAJIN</h2>
+    <hr>
+    <form id="dadospessoais">
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+            <label for="name">Nome:</label><br>
+            <input class="linhas" type="text" name="name"><br>
+            <label for="idade">Idade:</label><br>
+            <input class="linhas" type="number" name="idade"><br>
+            <label for="celular">Telefone:</label><br>
+            <input class="linhas" type="number" name="celular"><br>
+            <label for="text">Endereço:</label><br>
+            <input  class="linhas" type="text" name="endereço"><br><br>
+            <select name="planetaorigem" id="planetaorigem">
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Reino de Hyrule</option>
+                <option>Green Hill</option>
+                <option>Outros</option>
+            </select>
+    </form>
+    </fieldset><br>
+
+    <form id="dadosextras">
+        <fieldset>
+            <legend>Dados Extras:</legend>
+            <label for="raça">Raça do Universo 7 preferida: </label>
+            <select name="raça" id="raça">
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>NameKuseijin</option>
+                <option>Androide</option>
+                <option>Kokiri</option>
+                <option>Ouriço</option>
+                <option>Outros</option>
+            </select><br><br>
+            <label for="trab">Trabalho: </label>
+            <input type="radio" name="trab" id="autonomo" value="autonomo">
+            <label for="autonomo">Autonomo</label>
+            <input type="radio" name="trab" id="empregado" value="empregado">
+            <label for="empregado">Empregado CLT</label>
+            <input type="radio" name="trab" id="empresario" value="empresario">
+            <label for="empresario">Empresário</label>
+            <input type="radio" name="trab" id="tipogoku" value="tipogoku">
+            <label for="tipogoku">Tipo Goku</label>
+        </fieldset><br>
+    </form>
+
+    <form id="açaipft">
+        <fieldset>
+            <legend>Seu açai é perfeito de que jeito?</legend>
+            <p></p>
+            <input type="checkbox" name="puro" value="puro">Puro
+            <input type="checkbox" name="banana" value="c/banana">Com Banana
+            <input type="checkbox" name="morango" value="c/morango">Com Morango
+            <input type="checkbox" name="granola" value="c/granola">Com Granola
+            <input type="checkbox" name="fresco" value="fresco">Tem Gosto de terra
+        </fieldset><br>
+    </form>
+    <form id="tamanho">
+        <fieldset>
+         <legend>Qual seu tamanho preferido?</legend>
+          <label for="tamanho"></label>
+            <input type="radio" name="tamanho" id="500ml" value="500ml">
+            <label for="tamanho">500ml</label>
+            <input type="radio" name="tamanho" id="300ml" value="300ml">
+            <label for="tamanho">300ml</label>
+            <input type="radio" name="tamanho" id="100ml" value="100ml">
+            <label for="tamanho">100ml</label>
+            <input type="radio" name="tamanho" id="casquinha" value="casquinha">
+            <label for="tamanho">Casquinha</label>
+            <input type="radio" name="tamanho" id="gostodeterra" value="gostodeterra">
+            <label for="tamanho">Qual é a parte do tem gosto de terra que você nao entendeu?</label>
+        </fieldset><br>
+    </form>
+    <fieldset>
+    <legend>observações: </legend>
+    <textarea id="obs" rows="4" cols="100"></textarea>
+    </fieldset><br>
+    <button type="submit">Enviar</button>
+    <button>Limpar</button>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-image: url(/prova_pratica/Imagens/goku.png);
+    background-color: indigo;
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: 30%;
+}
+
+h2{
+    font-family: cursive;
+    border-style: dotted;
+    border-radius: 10px;
+    text-align: center;
+    color: goldenrod;
+    background-color: darkmagenta;
+}
+
+fieldset{
+ border:solid goldenrod 3px;
+}
+
+label, fieldset{
+    color: white;
+
+}
+
+button{
+    padding: 10px;
+    background-color: purple;
+    border-radius: 10px;
+    border-bottom: 15px;
+}
+
+form, input, textarea{
+    resize: none;
+}
+
+.linhas{
+    width: 60%;
+}
